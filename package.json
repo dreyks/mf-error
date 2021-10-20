@@ -1,0 +1,22 @@
+{
+  "name": "mf-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "app_one",
+    "app_two"
+  ],
+  "scripts": {
+    "start": "yarn webpack serve"
+  },
+  "devDependencies": {
+    "@webpack-cli/serve": "^1.6.0",
+    "webpack": "^5.59.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "webpack-cli": "^4.9.1"
+  }
+}
